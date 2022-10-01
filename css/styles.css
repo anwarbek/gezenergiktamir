@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-Light.woff2") format("woff2"),
-    url("../fonts/FiraSans-Light.woff") format("woff");
+  url("../fonts/FiraSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-Medium.woff2") format("woff2"),
-    url("../fonts/FiraSans-Medium.woff") format("woff");
+  url("../fonts/FiraSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-Regular.woff2") format("woff2"),
-    url("../fonts/FiraSans-Regular.woff") format("woff");
+  url("../fonts/FiraSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-SemiBold.woff2") format("woff2"),
-    url("../fonts/FiraSans-SemiBold.woff") format("woff");
+  url("../fonts/FiraSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-Black.woff2") format("woff2"),
-    url("../fonts/FiraSans-Black.woff") format("woff");
+  url("../fonts/FiraSans-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -46,15 +46,17 @@
 @font-face {
   font-family: "Fira Sans";
   src: url("../fonts/FiraSans-Bold.woff2") format("woff2"),
-    url("../fonts/FiraSans-Bold.woff") format("woff");
+  url("../fonts/FiraSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
+  --main-color:#212429;
   --black-color: #000000;
   --red-color: #e30614;
+  --white: #ffffff;
 }
 
 /* GLOBAL */
@@ -68,6 +70,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+*:focus {
+  outline: 2px dashed var(--red-color);
+  outline-offset: 3px;
 }
 
 body {
@@ -104,4 +111,91 @@ img {
 /* MAIN_CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* HEADER */
+/* HEADER-TOP */
+.header-top {
+  margin: 0;
+  padding: 13px 0;
+  background-color: var(--main-color);
+}
+
+.header-top__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.sitenav__link {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.009em;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.sitenav__link:hover {
+  color: var(--red-color);
+}
+
+.sitenav__link:active {
+  color: var(--red-color);
+  opacity: 0.6;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts-phone {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.phone-icon {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.phone__link {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.contacts-mail {
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.mail__link {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.008em;
+  text-decoration: none;
+  color: var(--white);
 }
