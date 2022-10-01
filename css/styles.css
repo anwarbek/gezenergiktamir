@@ -57,6 +57,8 @@
   --black-color: #000000;
   --red-color: #e30614;
   --white: #ffffff;
+  --placeholder-color: #b3b3b3;
+  --border-color:#e6e6e6;
 }
 
 /* GLOBAL */
@@ -226,9 +228,9 @@ img {
 .header-title {
   margin: 0;
   margin-right: 30px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 16px;
   letter-spacing: 0.009em;
   color: var(--black-color);
 }
@@ -266,11 +268,22 @@ img {
 #search {
   margin: 0;
   padding: 0;
+  padding-left: 40px;
+  padding-right: 10px;
   width: 358px;
   height: 42px;
+  color: #000000;
   background: var(--white);
-  border: 1px solid #E6E6E6;
+  background-image: url(../img/icon-search.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 17px center;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
+}
+
+#search::placeholder {
+  color: var(--placeholder-color);
 }
 
 .search-button {
