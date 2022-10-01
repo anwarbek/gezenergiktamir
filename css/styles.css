@@ -405,3 +405,65 @@ img {
   color: var(--black-color);
   text-decoration: none;
 }
+
+
+/* ACTIVITIES */
+.activities {
+  margin: 175px 0 80px;
+  padding: 0;
+}
+
+.activities__item-title {
+  margin: 0 0 30px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 1px;
+}
+
+.activities__card-img {
+  width: 240px;
+}
+
+.activities-cards__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.activities-card__item {
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 365px;
+  border: 1px solid var(--placeholder-color);
+  border-radius: 5px;
+}
+
+.activities-card__item:not(:last-child) {
+  margin-right: 23px;
+}
+
+.activities-card__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.activities-card__link:hover {
+  opacity: 0.8;
+  color: var(--red-color);
+}
+
+.activities-card__link:active {
+  opacity: 0.6;
+  color: var(--red-color);
+}
