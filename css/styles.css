@@ -581,6 +581,7 @@ footer {
   display: flex;
   fill: var(--white);
 }
+
 .footer-title{
   margin: 0 40px 0 0;
   padding: 0;
@@ -588,6 +589,10 @@ footer {
   font-size: 14px;
   line-height: 18px;
   color: var(--white);
+}
+
+.footer-sitenav__link {
+  font-size: 14px;
 }
 
 .footer-sitenav__item:not(:last-child) {
