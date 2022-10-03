@@ -648,9 +648,8 @@ footer {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.009em;
-  padding-top: 20px;
+  
   margin: 0;
-  border-top: 1px solid var(--white);
   color: var(--white);
 }
 
@@ -658,3 +657,17 @@ footer {
   text-decoration: none;
   color: var(--white);
 }
+
+.aj-corp-logo {
+  width: 30px;
+  display: flex;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--white);
+}
+
