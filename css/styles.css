@@ -296,7 +296,7 @@ img {
   color: var(--placeholder-color);
 }
 
-.search-button {
+/* .search-button {
   padding: 8px 20px;
   height: 42px;
   color: var(--white);
@@ -311,7 +311,7 @@ img {
 
 .search-button:active {
   opacity: 0.6;
-}
+} */
 
 .contacts-link {
   margin-left: auto;
