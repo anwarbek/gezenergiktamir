@@ -1,3 +1,4 @@
+// Qidiruv
 function myFunction() {
   var input, filter, ul, li, h4, i, txtValue;
   input = document.getElementById("search");
@@ -14,6 +15,7 @@ function myFunction() {
     }
   }
 }
+// Enter o'chirildi
 $(document).on("keydown", "form", function (event) {
   return event.key != "Enter";
 });
