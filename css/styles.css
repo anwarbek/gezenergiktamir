@@ -773,3 +773,95 @@ footer {
   font-size: 16px;
   line-height: 1.5;
 }
+
+
+/* EMPLOYEES */
+.employees {
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.employee-card {
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid var(--border-color);
+}
+
+.employee-card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.employee-card-top {
+  margin: 0;
+  padding: 10px 60px;
+  background-color: var(--placeholder-color);
+}
+
+.employee-card-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.employee-card-bottom {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.employee-contacts {
+  margin: 0 0 0 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-card-bottom-title {
+  margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.employee-card-bottom-img {
+  width: 200px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.employee-text {
+  font-weight: 700;
+  font-size: 18px;
+    letter-spacing: 1px;
+  color: var(--red-color);
+}
+
+.contacts-work-time {
+  display: flex;
+}
+
+.employee-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.employee-work-time {
+  margin: 0;
+  padding: 0;
+}
