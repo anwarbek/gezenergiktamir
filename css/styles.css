@@ -103,7 +103,7 @@ body::before {
   left: 0;
   z-index: -1;
   background-image: url(../img/metal-texture.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   opacity: 0.2;
 }
@@ -147,6 +147,10 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.header-no-sticky {
+  position: relative;
 }
 
 .header-top {
@@ -801,7 +805,7 @@ footer {
 /* EMPLOYEES */
 .employees {
   margin: 0;
-  padding-bottom: 40px;
+  padding: 20px 0;
 }
 
 .employee-card {
@@ -846,11 +850,11 @@ footer {
 
 .employee-card-bottom-title {
   margin: 0 0 30px;
-    padding: 0;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 1.5;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .employee-card-bottom-img {
@@ -871,7 +875,7 @@ footer {
 .employee-text {
   font-weight: 700;
   font-size: 18px;
-    letter-spacing: 1px;
+  letter-spacing: 1px;
   color: var(--red-color);
 }
 
@@ -888,4 +892,102 @@ footer {
 .employee-work-time {
   margin: 0;
   padding: 0;
+}
+
+/* HISTORY */
+.history {
+  margin: 0;
+  padding: 30px 0;
+}
+
+.history-item {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
+.history-title {
+  margin: 0 0 30px 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.history-list-text {
+  margin: 0 auto 30px;
+  padding: 0;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.history__list {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.history__item:not(:last-child) {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.history__item-title {
+  margin: 0 0 10px;
+  padding: 0;
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.history__item-text {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.history__item-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.history-item-img-top {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  width: 800px;
+  border-radius: 7px;
+}
+
+.history-item-img-bottom {
+  width: 480px;
+  border-radius: 15px;
+}
+
+.history-item-img-bottom:not(:last-child) {
+  margin: 0 20px 20px 0;
+}
+
+.history-item-img-big {
+  width: 581px;
+}
+
+.history-item-img-small {
+  width: 240px;
+}
+
+.history-item-img-big-two {
+  width: 1000px;
 }
