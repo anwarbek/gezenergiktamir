@@ -1004,7 +1004,7 @@ footer {
   justify-content: space-between;
 }
 
-.press-service-content{
+.press-service-content-wrap{
   margin: 0 20px 0 0;
   padding: 15px;
   width: 100%;
@@ -1040,11 +1040,6 @@ footer {
   margin: 0;
   padding: 15px;
   width: calc(100% - 60%);
-  border-radius: 5px;
-  background-color: var(--white);
-}
-.news-section {
-  margin: 0;
   border-radius: 5px;
   background-color: var(--white);
 }
