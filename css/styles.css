@@ -101,7 +101,7 @@ body::before {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: -100;
   background-image: url(../img/metal-texture.jpg);
   background-size: cover;
   background-position: center;
@@ -990,4 +990,117 @@ footer {
 
 .history-item-img-big-two {
   width: 1000px;
+}
+
+/* PRESS-SERVICE */
+.press-service {
+  margin: 0;
+  padding: 20px 0 20px;
+}
+
+.press-service-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.press-service-content{
+  margin: 0 20px 0 0;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--white);
+  
+}
+
+.press-service-title {
+  margin: 0 0 30px 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.press-service-text {
+  margin: 20px 0;
+  padding: 0;
+  width: 98%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.press-service-img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.news-section-wrap {
+  margin: 0;
+  padding: 15px;
+  width: calc(100% - 60%);
+  border-radius: 5px;
+  background-color: var(--white);
+}
+.news-section {
+  margin: 0;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
+.news-section-title {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--red-color);
+}
+
+.news-section-title::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  color: var(--white);
+  background-color: var(--red-color);
+}
+
+.news-section-block__list {
+  margin: 0;
+  padding: 0;
+  
+} 
+.news-section-block__item {
+  margin:15px 0 0;
+  padding: 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--main-color);
+} 
+.news-section-block__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.news-section-block__link {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--black-color);
+} 
+
+.news-section-block__link:hover { 
+  color: var(--red-color);
+  opacity: 0.8;
+}
+.news-section-block__link:active { 
+  color: var(--red-color);
+  opacity: 0.6;
 }
