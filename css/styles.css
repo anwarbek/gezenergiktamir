@@ -1099,3 +1099,68 @@ footer {
   color: var(--red-color);
   opacity: 0.6;
 }
+
+
+/* FUNCTION */
+.function-hero {
+  margin: 0 0 20px;
+  padding: 25px 0;
+  background-image: url(../img/bg-faoliyat.jpg);
+}
+
+.function-hero__item {
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  opacity: 0.9;
+}
+
+.function-hero-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 100%;
+  color: var(--white);
+}
+
+.function-hero-text {
+  margin: 0;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.function-item {
+  margin: 0 0 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
+.function-text {
+  margin: 0 0 30px;
+  padding: 0;
+  width: 90%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.function-item-block {
+  margin: 0 -15px 0 0;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.function-item-img:not(:last-child) {
+  margin: 0 15px 15px 0;
+}
+
+.function-item-img {
+  width: 300px;
+}
