@@ -1164,3 +1164,82 @@ footer {
 .function-item-img {
   width: 300px;
 }
+
+/* CONTACTS */
+.main-contacts {
+  padding: 20px 0;
+  margin: 0;
+}
+.contacts-item {
+  position: relative;
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
+.contacts-item-title {
+  margin: 0 0 20px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.contacts-item-text {
+  margin: 0 0 40px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contacts-link-text {
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: var(--main-color);
+}
+
+.contacts-page-block {
+  margin: 0 0 39px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-block {
+  position: absolute;
+  display: flex;
+  top: 300px;
+  left: 55%;
+}
+
+.block-img {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  margin: 0 10px 0 0;
+}
+
+.block-img-style {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  border: 3px solid var(--white);
+}
+
+.block-img-style:not(:last-child) {
+  position: absolute;
+  top: 80px;
+  right: 260px;
+}
