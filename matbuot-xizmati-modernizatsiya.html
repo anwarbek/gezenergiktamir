@@ -16,8 +16,54 @@
 
 <body>
   <!-- HEADER -->
-  <div include-html="header.html"></div>
+  <header class="header-no-sticky">
+    <button id="myBtn" class="myBtn header-top-btn header-top-btn-black"><img src="img/menu-btn.svg" alt="" width="24"
+        height="24"></button>
+    <!-- HEADER-TOP -->
+    <div id="topHead" class="header-top">
+      <div class="container">
+        <div class="header-top__item">
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item"><a class="sitenav__link" href="index.html">Bosh sahifa</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="biz-haqimizda.html">Biz haqimizda</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="tarix.html">Tarix</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="raxbariyat.html">Raxbariyat</a></li>
+              <li class="sitenav__item"><a class="sitenav__link active-link" href="matbuot-xizmati.html">Matbuot
+                  xizmati</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="faoliyat.html">Faoliyat</a></li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <div class="contacts-phone">
+              <img class="phone-icon" src="img/icon-phone.svg" alt="phone">
+              <a class="phone__link" href="tel:+99895-602-80-66">+998(95)-602-80-66</a>
+            </div>
+            <div class="contacts-mail">
+              <img class="mail-icon" src="img/icon-mail.svg" alt="mail">
+              <a class="mail__link" href="mailto:ptp@utg.uz">ptp@utg.uz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   
+    <!-- HEADER-BOTTOM -->
+    <div class="header-bottom">
+      <div class="container">
+        <div class="header-bottom__item">
+          <div class="logo">
+            <a class="logo-img" href="index.html">
+              <img src="img/logo.svg" alt="site-logo" width="82" height="70">
+            </a>
+          </div>
+          <h1 class="header-title">“Urganchtransgaz” UK<br>“Gazenergikta’mir”<br>ishlab chiqarish texnik<br>korxonasi
+            rasmiy web sayti</h1>
+          <a class="contacts-link" href="contacts.html">Biz bilan bog'lanish</a>
+        </div>
+      </div>
+    </div>
+  </header>
   <!-- PRESS-SERVICE -->
   <main>
     <div class="press-service">
