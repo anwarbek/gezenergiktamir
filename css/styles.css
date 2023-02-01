@@ -1271,6 +1271,54 @@ footer {
   width: 100%;
 }
 
+/* THERMAL BOILER */
+.thermal-boiler-img {
+  object-fit: contain;
+  width: 350px;
+}
+
+.thermal-boiler {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.thermal-boiler-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thermal-boiler-text {
+  width: 49%;
+}
+
+.thermal-boiler-list {
+  list-style: none;
+}
+
+.thermal-boiler-list-item {
+  margin: 10px 0;
+}
+
+.thermal-boiler-1000 {
+  background-color: #faa2a5;
+}
+
+.thermal-boiler-600 {
+  background-color: #f7cfa3;
+}
+
+.thermal-boiler-400 {
+  background-color: #a3daea;
+}
+
+.thermal-boiler a {
+  justify-content: center;
+}
+
+
 /* RESPONSIVE */
 @media (max-width:425px) {
   head {
@@ -1806,4 +1854,38 @@ footer {
   .contacts-block-img-style {
     display: none;
   }
+
+  /* THERMAL BOILER */
+.thermal-boiler-img {
+  object-fit: contain;
+  width: 350px;
+}
+
+.thermal-boiler {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.thermal-boiler-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.thermal-boiler-text {
+  width: 100%;
+}
+
+.thermal-boiler-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.thermal-boiler a {
+  margin: 0;
+  width: 70%;
+}
+
 }
