@@ -102,7 +102,7 @@ body::before {
   bottom: 0;
   left: 0;
   z-index: -100;
-  background-image: url(../img/metal-texture.jpg);
+  background-image: url(../img/metal-texture.webp);
   background-size: cover;
   background-position: center;
   opacity: 0.2;
@@ -1863,36 +1863,36 @@ iframe {
   }
 
   /* THERMAL BOILER */
-.thermal-boiler-img {
-  object-fit: contain;
-  width: 350px;
-}
+  .thermal-boiler-img {
+    object-fit: contain;
+    width: 350px;
+  }
 
-.thermal-boiler {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 40px 20px;
-}
+  .thermal-boiler {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
 
-.thermal-boiler-item {
-  display: flex;
-  flex-direction: column;
-}
+  .thermal-boiler-item {
+    display: flex;
+    flex-direction: column;
+  }
 
-.thermal-boiler-text {
-  width: 100%;
-}
+  .thermal-boiler-text {
+    width: 100%;
+  }
 
-.thermal-boiler-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+  .thermal-boiler-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
 
-.thermal-boiler a {
-  margin: 0;
-  width: 70%;
-}
+  .thermal-boiler a {
+    margin: 0;
+    width: 70%;
+  }
 
 }
