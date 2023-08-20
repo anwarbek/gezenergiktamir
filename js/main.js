@@ -36,7 +36,7 @@ btn.addEventListener('click', ()=>{
       }
     }
   }
-  // Enter o'chirildi
-  $(document).on("keydown", "form", function (event) {
-    return event.key != "Enter";
-  });
+  // // Enter o'chirildi
+  // $(document).on("keydown", "form", function (event) {
+  //   return event.key != "Enter";
+  // });
